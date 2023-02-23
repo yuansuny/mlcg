@@ -20,6 +20,11 @@ Examples:
 ---------
 ./GCP 101  : solve the graph g0101.col using the MLCG method.
 
+-----------
+References:
+-----------
+Sun Y, Ernst A, Li X, and Weiner, J. Learning to Generate Columns with Application to Vertex Coloring. International Conference on Learning Representations (ICLR), 2023. (https://openreview.net/forum?id=JHW30A4DXtO) 
+
 --------
 License:
 --------
