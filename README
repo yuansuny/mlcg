@@ -1,0 +1,27 @@
+This repository contains the C++ source codes of the machine learning-based column generation (MLCG) method for solving the vertex coloring problem.
+
+------------------
+Install & compile:
+------------------
+packages required: 1) cmake/3.15.4 or above; 2) gcc-8.1.0 or above; 3) gurobi/9.0.1; and 4) igraph-0.8.5. 
+compile: 1) move to the build directory: 'cd build'
+         2) run cmake: 'cmake -DIGRAPH_ROOT_DIR=</path/to/igraph> ..'. The path to your IGRAPH installation must be such that '</path/to/igraph>/include/igraph/igraph.h' exists.
+         3) run makefile: 'make'.
+
+------
+Usage:
+------
+Usage: ./GCP datafile_ID 
+
+	datafile_ID : the index of the graph to solve, an integer from 1 to 1000.
+
+---------
+Examples:
+---------
+./GCP 101  : solve the graph g0101.col using the MLCG method.
+
+--------
+License:
+--------
+This program is to be used under the terms of the GNU General Public License 
+(http://www.gnu.org/copyleft/gpl.html).

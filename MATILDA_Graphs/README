@@ -1,0 +1,7 @@
+This archive contains graph instances generated using a genetic algorithm, with the aim of diversifying the available set of graphs. The data set is used to compare performance of graph colouring algorithms with respect to instance properties.
+
+The method used is described in the following paper:
+Smith-Miles, K. A. and Bowly, S., "Generating New Test Instances by Evolving in Instance Space", Computers & Operations Research
+
+Instances are described in the format specified for the DIMACS challenges (see ccformat.ps, included).
+
